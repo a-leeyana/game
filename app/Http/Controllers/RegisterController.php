@@ -51,6 +51,6 @@ class RegisterController extends Controller
         User::create($validatedData);
 
         return redirect('/loginStudent');
-        //hi
+        //bye
     }
 }
